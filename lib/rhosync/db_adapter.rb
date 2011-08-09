@@ -1,8 +1,9 @@
 unless defined?(JRUBY_VERSION)
   require 'sqlite3'
 else
+  require 'java'
   require 'dbi'
-  require 'dbd/jdbc'
+  require 'dbd/Jdbc'
   require 'jdbc/sqlite3'
 end
 require 'singleton'

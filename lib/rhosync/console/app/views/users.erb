@@ -1,5 +1,5 @@
 <a href="javascript:void(0);" onclick="loadXMLDoc('<%=url_path('user/new')%>','main_box');" class='nav_button'>Create User</a>
-<div style=<%=HEROKU_NAV ? "display:none" : "display:inline"%>>&nbsp;|&nbsp;
+<div style=<%=RhosyncConsole::Server::HEROKU_NAV ? "display:none" : "display:inline"%>>&nbsp;|&nbsp;
 	<a href="javascript:void(0);" onclick="loadXMLDoc('<%=url_path('user/edit')%>','main_box');" class='nav_button'>Change Admin Password</a>
 </div>
 

@@ -100,7 +100,7 @@
 </head>
 <body>	
 	<div class="container"> 
-		<%= HEROKU_NAV if HEROKU_NAV%>
+		<%= RhosyncConsole::Server::HEROKU_NAV if RhosyncConsole::Server::HEROKU_NAV%>
 		<div class="wrapper"> 
 			<div class="header"> 
 				<div class="logos"> 
@@ -108,7 +108,7 @@
 					<a href="" class="logo_rhohub">RhoHub</a> 
 				</div> 
 				<div id="menu">	
-					<%= erb(:headermenu,:layout => false, :locals => {:currentpage => @currentpage})  unless HEROKU_NAV %>
+					<%= erb(:headermenu,:layout => false, :locals => {:currentpage => @currentpage})  unless RhosyncConsole::Server::HEROKU_NAV %>
 				</div>
 				<div class="header_landing"> 
 					<div class="col_1"> 
