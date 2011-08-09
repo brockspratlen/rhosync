@@ -28,6 +28,7 @@
 * #15143911 - Schema Changed message from Zendesk ticket #1035 (merge from branch 2-1-stable 2.1.9) 
 * #14950665 - Benchmark application and libraries: rework REST calls to match new API restful routes.
 * #14860303 - In bench tests x_domain_session_wrapper middleware not working under ruby 1.9.2.
+* #14286067 - jruby rhosync:start : console doesn't work
  
 ## 2.1.8 (not released)
 * updated to rake 0.9.2	
